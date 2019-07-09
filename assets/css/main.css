@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: montserrat;
+	font: FontAwesome; /*changed from montserrat*/
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -157,8 +157,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		/* font-family: "Source Sans Pro", Helvetica, sans-serif;*/
-		font-family: montserrat;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/*font-family: montserrat;*/
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -197,7 +197,7 @@ input, select, textarea {
 		line-height: 1.375;
 		letter-spacing: -0.05em;
 		margin: 0 0 1rem 0;
-		font-family: montserrat;
+		font-family: "Source Sans Pro", Helvetica, sans-serif; /*montserrat*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2420,7 +2420,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: montserrat; /*Changed from FontAwesome*/
+				font-family: FontAwesome; /*Changed from montserrat*/
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2557,7 +2557,7 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: montserrat; /*Changed from FontAwesome*/
+			font-family: FontAwesome; /*Changed from montserrat*/
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -6785,7 +6785,7 @@ input, select, textarea {
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: montserrat; /*Changed from FontAwesome*/
+				font-family: FontAwesome; /*Changed from FontAwesome*/
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
